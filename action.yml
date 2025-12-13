@@ -20,7 +20,7 @@ inputs:
 outputs:
   changelog:
     description: "Generated changelog"
-    value: ${{ steps.generate-changelog.outputs.changelog }}
+    value: ${{ steps.generate_changelog.outputs.changelog }}
 
 runs:
   using: "composite"

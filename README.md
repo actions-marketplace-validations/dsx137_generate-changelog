@@ -5,5 +5,5 @@
   with:
     branch: "main"
     include: "nightly"
-    exclude: "^(Merge pull request|Merge branch|Merge tag)"
+    exclude: "xxx"
 ```
