@@ -54,7 +54,7 @@ runs:
           if [ -n "$tag" ]; then
             limit="$tag..HEAD"
           fi
-          local changelog="$(echo -ne "$(git log "$limit" --pretty=format:'- %s')")"
+          local changelog="$(echo -ne "$(git log "$limit" --pretty=format:'- %s%n%b%n')")"
           changelog="$(echo -e "$changelog" | sed 's/$/  /')"
           echo "$changelog"
         }
