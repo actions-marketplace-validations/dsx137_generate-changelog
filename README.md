@@ -1,9 +1,9 @@
-# Deb Cache
+# Generate Changelog
 
 ```yaml
-- uses: dsx137/generate_changelog@main
+- uses: dsx137/generate-changelog@main
   with:
     branch: "main"
     include: "nightly"
-    exclude: "^(Merge pull request|Merge branch|Merge tag)"
+    exclude: "xxx"
 ```
